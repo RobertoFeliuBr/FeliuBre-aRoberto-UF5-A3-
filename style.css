@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 1.35em;
 }
 header {
     background: url('./img/banner-2.jpg') no-repeat center center/cover;
@@ -51,6 +52,7 @@ header {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
 }
 .card img {
     width: 100%;
@@ -60,7 +62,7 @@ header {
     background-color: #2a7db1;
     color: white;
     padding: 50px 20px;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 .footer {
     background: black;
@@ -69,6 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-size: 1.2em;
 }
 .studio-images {
     display: grid;
@@ -87,7 +90,7 @@ header {
         gap: 0px;
         padding: 0%;
 }
-@media (max-width: 768px) {
+@media (max-width: 701px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
