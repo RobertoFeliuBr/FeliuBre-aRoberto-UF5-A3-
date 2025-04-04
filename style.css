@@ -5,9 +5,9 @@ body {
     text-align: center;
 }
 header {
-    background: url('./IMG/banner-2.jpg') no-repeat center center/cover;
+    background: url('./img/banner-2.jpg') no-repeat center center/cover;
     padding: 80px 20px;
-    font-size: 2em;
+    font-size: 4em;
     color: black;
     font-weight: bold;
 }
