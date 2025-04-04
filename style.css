@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background: url('./IMG/banner-2.jpg') no-repeat center center/cover;
+    padding: 80px 20px;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+.enrichment, .studio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.enrichment .text, .studio .text {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+}
+.enrichment .image, .studio .image {
+    flex: 1;
+    text-align: center;
+}
+.enrichment img, .studio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.programs {
+    background-color: #3fd5ae;
+    padding: 50px 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.meet {
+    background-color: #2a7db1;
+    color: white;
+    padding: 50px 20px;
+    font-size: 1.5em;
+}
+.footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.studio-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cuatro imágenes en una fila */
+    gap: 0px;
+    max-width: 1000px;
+    margin: auto;
+    padding: px;
+}
+.studio-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    margin: auto;
+        margin: 0%;
+        gap: 0px;
+        padding: 0%;
+}
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .studio-images {
+        grid-template-columns: repeat(2, 1fr); /* En móviles, 2 columnas */
+        gap: 0px;
+    }
+    .enrichment, .studio {
+        flex-direction: column;
+        text-align: center;
+    }
+}
